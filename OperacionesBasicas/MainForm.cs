@@ -29,7 +29,7 @@ namespace OperacionesBasicas
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		double num1, num2, suma, resta, multiplicacion, divicion;
+		double num1, num2, suma, resta, multiplicacion, divicion, modulo;
 		void BtnSumaClick(object sender, EventArgs e)
 		{
 			num1=Convert.ToDouble(txtnum1.Text);
@@ -60,6 +60,14 @@ namespace OperacionesBasicas
 			num2=Convert.ToDouble(txtnum2.Text);
 			divicion=num1/num2;
 			MessageBox.Show("DIVICION: "+divicion);
+		}
+		
+		void BtnModuloClick(object sender, EventArgs e)
+		{
+			num1=Convert.ToDouble(txtnum1.Text);
+			num2=Convert.ToDouble(txtnum2.Text);
+			modulo=num1%num2;
+			MessageBox.Show("Modulo: "+modulo);
 		}
 	}
 }

@@ -44,6 +44,7 @@ namespace OperacionesBasicas
 			this.btnResta = new System.Windows.Forms.Button();
 			this.btnDivicion = new System.Windows.Forms.Button();
 			this.btnMulti = new System.Windows.Forms.Button();
+			this.btnModulo = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// btnSuma
@@ -100,7 +101,7 @@ namespace OperacionesBasicas
 			// 
 			// btnDivicion
 			// 
-			this.btnDivicion.Location = new System.Drawing.Point(166, 167);
+			this.btnDivicion.Location = new System.Drawing.Point(166, 158);
 			this.btnDivicion.Name = "btnDivicion";
 			this.btnDivicion.Size = new System.Drawing.Size(97, 43);
 			this.btnDivicion.TabIndex = 9;
@@ -110,7 +111,7 @@ namespace OperacionesBasicas
 			// 
 			// btnMulti
 			// 
-			this.btnMulti.Location = new System.Drawing.Point(23, 167);
+			this.btnMulti.Location = new System.Drawing.Point(23, 158);
 			this.btnMulti.Name = "btnMulti";
 			this.btnMulti.Size = new System.Drawing.Size(97, 43);
 			this.btnMulti.TabIndex = 10;
@@ -118,11 +119,22 @@ namespace OperacionesBasicas
 			this.btnMulti.UseVisualStyleBackColor = true;
 			this.btnMulti.Click += new System.EventHandler(this.BtnMultiClick);
 			// 
+			// btnModulo
+			// 
+			this.btnModulo.Location = new System.Drawing.Point(90, 207);
+			this.btnModulo.Name = "btnModulo";
+			this.btnModulo.Size = new System.Drawing.Size(97, 43);
+			this.btnModulo.TabIndex = 11;
+			this.btnModulo.Text = "Modulo";
+			this.btnModulo.UseVisualStyleBackColor = true;
+			this.btnModulo.Click += new System.EventHandler(this.BtnModuloClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.btnModulo);
 			this.Controls.Add(this.btnMulti);
 			this.Controls.Add(this.btnDivicion);
 			this.Controls.Add(this.btnResta);
@@ -136,6 +148,7 @@ namespace OperacionesBasicas
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnModulo;
 		private System.Windows.Forms.Button btnMulti;
 		private System.Windows.Forms.Button btnDivicion;
 		private System.Windows.Forms.Button btnResta;
