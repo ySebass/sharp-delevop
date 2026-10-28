@@ -50,12 +50,13 @@ namespace OperacionesBasicas
 			// 
 			// btnSuma
 			// 
+			this.btnSuma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
 			this.btnSuma.Location = new System.Drawing.Point(23, 99);
 			this.btnSuma.Name = "btnSuma";
 			this.btnSuma.Size = new System.Drawing.Size(97, 43);
 			this.btnSuma.TabIndex = 0;
 			this.btnSuma.Text = "Suma";
-			this.btnSuma.UseVisualStyleBackColor = true;
+			this.btnSuma.UseVisualStyleBackColor = false;
 			this.btnSuma.Click += new System.EventHandler(this.BtnSumaClick);
 			// 
 			// label1
@@ -92,58 +93,64 @@ namespace OperacionesBasicas
 			// 
 			// btnResta
 			// 
+			this.btnResta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
 			this.btnResta.Location = new System.Drawing.Point(166, 99);
 			this.btnResta.Name = "btnResta";
 			this.btnResta.Size = new System.Drawing.Size(97, 43);
 			this.btnResta.TabIndex = 8;
 			this.btnResta.Text = "Resta";
-			this.btnResta.UseVisualStyleBackColor = true;
+			this.btnResta.UseVisualStyleBackColor = false;
 			this.btnResta.Click += new System.EventHandler(this.BtnRestaClick);
 			// 
 			// btnDivicion
 			// 
+			this.btnDivicion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
 			this.btnDivicion.Location = new System.Drawing.Point(166, 158);
 			this.btnDivicion.Name = "btnDivicion";
 			this.btnDivicion.Size = new System.Drawing.Size(97, 43);
 			this.btnDivicion.TabIndex = 9;
 			this.btnDivicion.Text = "Divicion";
-			this.btnDivicion.UseVisualStyleBackColor = true;
+			this.btnDivicion.UseVisualStyleBackColor = false;
 			this.btnDivicion.Click += new System.EventHandler(this.BtnDivicionClick);
 			// 
 			// btnMulti
 			// 
+			this.btnMulti.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
 			this.btnMulti.Location = new System.Drawing.Point(23, 158);
 			this.btnMulti.Name = "btnMulti";
 			this.btnMulti.Size = new System.Drawing.Size(97, 43);
 			this.btnMulti.TabIndex = 10;
 			this.btnMulti.Text = "Multiplicacion";
-			this.btnMulti.UseVisualStyleBackColor = true;
+			this.btnMulti.UseVisualStyleBackColor = false;
 			this.btnMulti.Click += new System.EventHandler(this.BtnMultiClick);
 			// 
 			// btnModulo
 			// 
+			this.btnModulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
 			this.btnModulo.Location = new System.Drawing.Point(25, 207);
 			this.btnModulo.Name = "btnModulo";
 			this.btnModulo.Size = new System.Drawing.Size(97, 43);
 			this.btnModulo.TabIndex = 11;
 			this.btnModulo.Text = "Modulo";
-			this.btnModulo.UseVisualStyleBackColor = true;
+			this.btnModulo.UseVisualStyleBackColor = false;
 			this.btnModulo.Click += new System.EventHandler(this.BtnModuloClick);
 			// 
 			// btnFormula
 			// 
+			this.btnFormula.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
 			this.btnFormula.Location = new System.Drawing.Point(166, 207);
 			this.btnFormula.Name = "btnFormula";
 			this.btnFormula.Size = new System.Drawing.Size(97, 43);
 			this.btnFormula.TabIndex = 12;
 			this.btnFormula.Text = "Formula general";
-			this.btnFormula.UseVisualStyleBackColor = true;
+			this.btnFormula.UseVisualStyleBackColor = false;
 			this.btnFormula.Click += new System.EventHandler(this.BtnFormulaClick);
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
 			this.ClientSize = new System.Drawing.Size(284, 261);
 			this.Controls.Add(this.btnFormula);
 			this.Controls.Add(this.btnModulo);
@@ -155,6 +162,7 @@ namespace OperacionesBasicas
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.btnSuma);
+			this.ForeColor = System.Drawing.Color.Black;
 			this.Name = "MainForm";
 			this.Text = "OperacionesBasicas";
 			this.ResumeLayout(false);
