@@ -69,5 +69,12 @@ namespace OperacionesBasicas
 			modulo=num1%num2;
 			MessageBox.Show("Modulo: "+modulo);
 		}
+		
+		void BtnFormulaClick(object sender, EventArgs e)
+		{
+			Form1 f=new Form1();
+			f.Show();
+			this.Hide();
+		}
 	}
 }

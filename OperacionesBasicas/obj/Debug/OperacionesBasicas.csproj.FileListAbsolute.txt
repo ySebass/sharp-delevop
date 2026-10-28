@@ -5,3 +5,11 @@ C:\Users\CC2_PC28\sharp-delevop\OperacionesBasicas\obj\Debug\OperacionesBasicas.
 C:\Users\CC2_PC28\sharp-delevop\OperacionesBasicas\obj\Debug\OperacionesBasicas.csproj.GenerateResource.Cache
 C:\Users\CC2_PC28\sharp-delevop\OperacionesBasicas\obj\Debug\OperacionesBasicas.exe
 C:\Users\CC2_PC28\sharp-delevop\OperacionesBasicas\obj\Debug\OperacionesBasicas.pdb
+C:\Users\Admin\sharp-delevop\OperacionesBasicas\obj\Debug\OperacionesBasicas.csprojResolveAssemblyReference.cache
+C:\Users\Admin\sharp-delevop\OperacionesBasicas\obj\Debug\OperacionesBasicas.Form1.resources
+C:\Users\Admin\sharp-delevop\OperacionesBasicas\obj\Debug\OperacionesBasicas.MainForm.resources
+C:\Users\Admin\sharp-delevop\OperacionesBasicas\obj\Debug\OperacionesBasicas.csproj.GenerateResource.Cache
+C:\Users\Admin\sharp-delevop\OperacionesBasicas\obj\Debug\OperacionesBasicas.exe
+C:\Users\Admin\sharp-delevop\OperacionesBasicas\bin\Debug\OperacionesBasicas.exe
+C:\Users\Admin\sharp-delevop\OperacionesBasicas\bin\Debug\OperacionesBasicas.pdb
+C:\Users\Admin\sharp-delevop\OperacionesBasicas\obj\Debug\OperacionesBasicas.pdb

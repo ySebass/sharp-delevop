@@ -45,6 +45,7 @@ namespace OperacionesBasicas
 			this.btnDivicion = new System.Windows.Forms.Button();
 			this.btnMulti = new System.Windows.Forms.Button();
 			this.btnModulo = new System.Windows.Forms.Button();
+			this.btnFormula = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// btnSuma
@@ -121,7 +122,7 @@ namespace OperacionesBasicas
 			// 
 			// btnModulo
 			// 
-			this.btnModulo.Location = new System.Drawing.Point(90, 207);
+			this.btnModulo.Location = new System.Drawing.Point(25, 207);
 			this.btnModulo.Name = "btnModulo";
 			this.btnModulo.Size = new System.Drawing.Size(97, 43);
 			this.btnModulo.TabIndex = 11;
@@ -129,11 +130,22 @@ namespace OperacionesBasicas
 			this.btnModulo.UseVisualStyleBackColor = true;
 			this.btnModulo.Click += new System.EventHandler(this.BtnModuloClick);
 			// 
+			// btnFormula
+			// 
+			this.btnFormula.Location = new System.Drawing.Point(166, 207);
+			this.btnFormula.Name = "btnFormula";
+			this.btnFormula.Size = new System.Drawing.Size(97, 43);
+			this.btnFormula.TabIndex = 12;
+			this.btnFormula.Text = "Formula general";
+			this.btnFormula.UseVisualStyleBackColor = true;
+			this.btnFormula.Click += new System.EventHandler(this.BtnFormulaClick);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.btnFormula);
 			this.Controls.Add(this.btnModulo);
 			this.Controls.Add(this.btnMulti);
 			this.Controls.Add(this.btnDivicion);
@@ -148,6 +160,7 @@ namespace OperacionesBasicas
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnFormula;
 		private System.Windows.Forms.Button btnModulo;
 		private System.Windows.Forms.Button btnMulti;
 		private System.Windows.Forms.Button btnDivicion;
